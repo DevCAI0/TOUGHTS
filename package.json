@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js localhost 3000"
+    "DEV": "nodemon ./index.js localhost 3000"
   },
   "keywords": [],
   "author": "Matheus <matheus@horadecodar.com.br> (http://www.horadecodar.com.br/)",
